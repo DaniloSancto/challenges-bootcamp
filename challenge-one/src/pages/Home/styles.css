@@ -1,0 +1,167 @@
+.main-home {
+  max-width: 992px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.home-container {
+  background-color: #00285f;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin: 20px 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.home-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.home-card-content h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.home-card-description {
+  padding: 0 25px;
+  margin: 0;
+  font-size: 14px;
+  width: 300px;
+}
+
+.home-img {
+  padding: 60px 30px 30px 30px;
+}
+
+.home-img img {
+  width: 100%;
+  height: auto;
+  max-width: 350px;
+}
+
+.home-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #DCDCDC;
+  border-radius: 10px;
+  margin: 20px 10px;
+  height: 125px;
+}
+
+.home-btn-container p {
+  color: #585858;
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.button-contet {
+  margin-top: 8px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    margin: 30px 20px;
+  }
+
+  .home-img {
+    padding: 20px 100px;
+  }
+
+  .home-card-content h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+
+  .home-card-description {
+    font-size: 18px;
+    width: 430px;
+  }
+
+  .home-btn-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 30px 20px;
+  }
+
+  .home-btn-container p {
+    margin-left: 15px;
+    margin-top: 0;
+  }
+
+  .button-contet {
+    margin-top: 0;
+    margin-left: 85px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-img {
+    padding: 80px 200px 40px 200px;
+  }
+
+  .home-card-content {
+    margin-bottom: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  .home-img img {
+    max-width: 460px;
+  }
+
+  .home-card-content {
+    margin-bottom: 125px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-home {
+    padding: 0;
+  }
+
+  .home-container {
+    padding-left: 80px;
+    text-align: left;
+    margin: 30px 0;
+  }
+
+  .home-card {
+    height: 365px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-card-content {
+    margin: 0;
+  }
+
+  .home-card-description {
+    padding-left: 8px;
+    margin: 0;
+  }
+
+  .home-img {
+    padding: 75px;
+  }
+
+  .home-img img {
+    max-width: 350px;
+  }
+
+  .home-btn-container {    
+    margin: 30px 0;
+  }
+}
