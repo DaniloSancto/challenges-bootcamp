@@ -25,6 +25,8 @@
   display: flex;
   justify-content: space-between;
   width: 190px;
+  height: 70px;
+  padding-bottom: 20px;
 }
 
 .main-menu li {
@@ -37,9 +39,16 @@
 
 .menu a:hover {
   color: #00285f;
+  font-weight: 700;
 }
 
 .menu a.active {
   color: #00285f;
   font-weight: 700;
+}
+@media (min-width: 768px) {
+  .menu {
+    height: 0;
+    padding-bottom: 20px;
+  }
 }

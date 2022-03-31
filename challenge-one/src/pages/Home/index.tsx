@@ -1,6 +1,6 @@
 import "./styles.css";
 import CarImage from "assets/images/car.png";
-import Button from "components/Button";
+import ButtonHome from "components/ButtonHome";
 
 const Home = () => {
   return (
@@ -19,9 +19,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="home-btn-container">
-        <div className="button-contet">
-          <Button />
+      <div className="btn-container">
+        <div>
+          <ButtonHome />
         </div>
         <p>Comece agora a navegar</p>
       </div>

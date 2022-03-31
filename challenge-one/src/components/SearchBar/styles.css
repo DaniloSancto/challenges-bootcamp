@@ -1,0 +1,62 @@
+.catalog-container {
+    max-width: 992px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .main-catalog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+    height: 85px;
+    margin: 20px 10px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  .main-catalog input {
+    border: 0px;
+    border-radius: 5px 0 0 5px;
+    width: 200px;
+  }
+  
+  .main-catalog ::placeholder {
+    font-size: 14px;
+    padding-left: 12px;
+  }
+  
+  .form-content {
+    display: flex;
+  }
+  
+  @media (min-width: 576px) {
+    .main-catalog {
+      height: 125px;
+      margin: 30px 20px;
+    }
+  
+    .main-catalog input {
+      width: 320px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .main-catalog input {
+      width: 515px;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .main-catalog input {
+      width: 585px;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .main-catalog {
+      margin: 30px 0;
+    }
+  }
+  

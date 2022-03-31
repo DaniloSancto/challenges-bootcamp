@@ -1,0 +1,16 @@
+.buy-btn {
+  width: 260px;
+  margin: 15px;
+}
+
+@media (min-width: 576px) {
+  .buy-btn{
+    width: 220px;
+  }
+}
+
+@media (min-width: 768px) {
+  .buy-btn{
+    width: 220px;
+  }
+}

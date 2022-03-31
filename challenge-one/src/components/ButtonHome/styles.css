@@ -1,0 +1,9 @@
+.home-btn {
+  width: 175px;
+}
+
+@media (min-width: 576px) {
+  .home-btn {
+    margin-left: 85px;
+  }
+}

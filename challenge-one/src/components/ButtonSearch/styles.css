@@ -1,0 +1,10 @@
+.search-btn {
+  width: 75px;
+  border-radius: 0 5px 5px 0;
+}
+
+@media (min-width: 576px) {
+  .search-btn {
+    width: 175px;
+  }
+}
