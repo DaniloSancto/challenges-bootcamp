@@ -19,7 +19,7 @@
   .main-catalog input {
     border: 0px;
     border-radius: 5px 0 0 5px;
-    width: 200px;
+    width: 180px;
   }
   
   .main-catalog ::placeholder {

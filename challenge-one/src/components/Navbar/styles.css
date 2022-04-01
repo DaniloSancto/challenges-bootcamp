@@ -24,6 +24,7 @@
 .menu {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 190px;
   height: 70px;
   padding-bottom: 20px;
@@ -46,9 +47,14 @@
   color: #00285f;
   font-weight: 700;
 }
+
 @media (min-width: 768px) {
   .menu {
     height: 0;
-    padding-bottom: 20px;
+    padding-bottom: 0;
+  }
+  .main-nav {
+    min-height: 70px;
+    padding: 0 30px;
   }
 }
