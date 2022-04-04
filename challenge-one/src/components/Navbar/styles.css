@@ -1,4 +1,4 @@
-.main-nav {
+.nav-container {
   min-height: 70px;
   padding: 0 20px;
 }
@@ -53,7 +53,7 @@
     height: 0;
     padding-bottom: 0;
   }
-  .main-nav {
+  .nav-container {
     min-height: 70px;
     padding: 0 30px;
   }

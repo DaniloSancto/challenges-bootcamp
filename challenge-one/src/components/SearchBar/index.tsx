@@ -4,8 +4,8 @@ import "./styles.css";
 const SearchBar = () => {
   return (
     <>
-      <div className="catalog-container">
-        <div className="main-catalog">
+      <div className="search-container">
+        <div className="search-bar-content">
           <form action="submit">
             <div className="form-content">
               <input type="text" placeholder="Digite sua busca" />

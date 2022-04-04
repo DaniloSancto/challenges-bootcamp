@@ -6,7 +6,7 @@ const Catalog = () => {
   return (
     <>
       <SearchBar />
-      <div className="main-catalog-container container my-4">
+      <div className="catalog-container container my-4">
         <div className="row">
           <div className="col-sm-6 col-lg-4">
             <ProductCard />

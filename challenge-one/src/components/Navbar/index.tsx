@@ -5,7 +5,7 @@ import { Link, NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar navbar-expand-md navbar-light bg-primary main-nav">
+      <div className="navbar navbar-expand-md navbar-light bg-primary nav-container">
         <div className="container-fluid">
           <Link to="/" className="nav-logo">
             <h1>Carros Top</h1>

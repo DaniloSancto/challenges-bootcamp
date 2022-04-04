@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="main-home">
-      <div className="home-container">
+    <div className="home-container">
+      <div className="home-content">
         <div className="home-card">
           <div className="home-card-content">
             <h2>O carro perfeito para você</h2>

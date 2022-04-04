@@ -1,4 +1,4 @@
-.main-catalog-container {
+.catalog-container {
   max-width: 992px;
   width: 100%;
   margin-right: auto;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 576px) {
-  .main-catalog-container {
+  .catalog-container {
     padding: 0 20px;
   }
 }
