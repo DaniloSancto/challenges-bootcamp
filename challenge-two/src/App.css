@@ -19,3 +19,13 @@ a:hover {
   text-decoration: none;
   color: unset;
 }
+
+.base-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  margin-top: 20px;
+}

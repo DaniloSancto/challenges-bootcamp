@@ -1,13 +1,13 @@
 import './assets/styles/custom.scss';
 import "./App.css";
 import Navbar from "components/Navbar";
-import Home from 'pages/Home';
+import GithubSearch from 'pages/GithubSearch';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Home/>
+      <GithubSearch/>
     </>
   );
 }

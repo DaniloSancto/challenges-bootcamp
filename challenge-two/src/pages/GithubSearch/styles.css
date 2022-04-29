@@ -1,0 +1,63 @@
+.github-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 270px;
+  margin: 25px 10px;
+  border-radius: 10px;
+  background-color: #e6f7ff;
+  font-size: 38px;
+  padding: 30px 30px;
+}
+
+.search-title {
+  color: #262626;
+  font-weight: 500;
+  font-size: 0.7em;
+}
+
+.search-input {
+  height: 40px;
+  width: 200px;
+  padding-left: 15px;
+  border-radius: 4px;
+  border: 1px solid #d9d9d9;
+  font-size: 16px;
+}
+
+.search-input::placeholder {
+  color: #bfbfbf;
+}
+
+@media (min-width: 576px) {
+  .github-search-container {
+    margin: 45px 25px;
+  }
+  .search-title {
+    font-size: 0.8em;
+  }
+
+  .search-input {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+  .github-search-container {
+    margin: 45px 75px;
+    padding: 30px 50px;
+  }
+  .search-title {
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .github-search-container {
+    margin: 45px 100px;
+  }
+
+  .search-title {
+    font-size: 1em;
+  }
+}
